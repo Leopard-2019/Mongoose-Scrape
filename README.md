@@ -5,3 +5,4 @@ Journal website. The client can then save the articles in a database, delete sav
 
 This app is deployed at:  https://enigmatic-taiga-78651.herokuapp.com/
 
+![](images/
