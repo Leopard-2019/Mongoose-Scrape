@@ -9,7 +9,7 @@ This app is deployed at:  https://enigmatic-taiga-78651.herokuapp.com/
 
 ## Scraping ##
 
-The application uses "request" and "cheerio" for scraping the Daily Universe HTML. The articles scraped are compared to the ones in the database, and if the articles hasn't already been stored, it is put into an object which is rendered on the "/scrape" route with the help of the "express-handlebars" npm package. Both the scrape page and the Saved Articles page display links to the associated articles so that the user may check out the full articles before saving or writing a comment.
+The application uses "request" and "cheerio" for scraping the Wall Street HTML. The articles scraped are compared to the ones in the database, and if the articles hasn't already been stored, it is put into an object which is rendered on the "/scrape" route with the help of the "express-handlebars" npm package. Both the scrape page and the Saved Articles page display links to the associated articles so that the user may check out the full articles before saving or writing a comment.
 
 ![](images/Figure2.png)
 
